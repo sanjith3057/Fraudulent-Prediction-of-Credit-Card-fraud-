@@ -1,0 +1,5 @@
+creditcard.csv
+cleaned_creditcard.csv
+fraud_model_tuned.pkl
+visuals/
+sample_data/
