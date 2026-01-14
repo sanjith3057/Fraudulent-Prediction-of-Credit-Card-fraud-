@@ -1,5 +1,15 @@
-creditcard.csv
+# Ignore large data files
+data/creditcard.csv
 cleaned_creditcard.csv
-fraud_model_tuned.pkl
+
+# Ignore model files (too big for GitHub)
+*.pkl
+
+# Ignore generated visuals (optional - remove line if you want to push plots)
 visuals/
-sample_data/
+
+# Standard Python ignores
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
